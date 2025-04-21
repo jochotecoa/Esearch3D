@@ -84,7 +84,7 @@ library(Esearch3D)
 data("wg_data_l")
 
 #1) A two column dataframe representing the gene - fragment interaction network
-gf_net = wg_data_ll$gf_net
+gf_net = wg_data_l$gf_net
 
 #2) A two column dataframe representing the fragment-fragment interaction network
 ff_net = wg_data_l$ff_net
